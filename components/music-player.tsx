@@ -24,8 +24,18 @@ export default function MusicPlayer() {
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.onended = () => setIsPlaying(false)
+      // Attempt to autoplay
+      audioRef.current
+        .play()
+        .then(() => {
+          setIsPlaying(true)
+        })
+        .catch((error) => {
+          console.log("Autoplay prevented:", error)
+          setIsPlaying(false) // Ensure state is correct if autoplay fails
+        })
     }
-  }, [])
+  }, []) // Empty dependency array ensures it runs only once on mount
 
   return (
     <Card className="w-full max-w-sm mx-auto bg-gradient-to-br from-gray-900 to-black text-white rounded-xl shadow-lg overflow-hidden">

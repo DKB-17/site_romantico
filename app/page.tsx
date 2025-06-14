@@ -2,7 +2,7 @@ import MusicPlayer from "@/components/music-player"
 import PhotoCarousel from "@/components/photo-carousel"
 import RomanticText from "@/components/romantic-text"
 import FallingHearts from "@/components/falling-hearts"
-import HeroSection from "@/components/hero-section"
+import HeroSection from "@/components/hero-section" // Import the new HeroSection
 
 export default function Home() {
   return (
