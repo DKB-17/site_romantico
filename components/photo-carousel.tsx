@@ -7,13 +7,13 @@ import { useState, useEffect } from "react" // Import useEffect
 
 export default function PhotoCarousel() {
   const images = [
-    "/images/ft5.jpg",
-    "/images/ft7.jpg",
-    "/images/ft11.jpg",
-    "/images/ft12.png",
-    "/images/ft13.jpg",
-    "/images/ft14.png",
-    "/images/ft15.jpg",
+    "/img/ft5.jpg",
+    "/img/ft7.jpg",
+    "/img/ft11.jpg",
+    "/img/ft12.png",
+    "/img/ft13.jpg",
+    "/img/ft14.png",
+    "/img/ft15.jpg",
   ]
   const [currentIndex, setCurrentIndex] = useState(0)
 

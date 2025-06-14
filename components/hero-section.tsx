@@ -9,8 +9,8 @@ export default function HeroSection() {
 
   const cardsData = [
     {
-      src: "/images/ft1.jpg",
-      alt: "Couple holding hands",
+      src: "/img/ft1.jpg",
+      alt: "A vida e feita de momentos",
       width: 250,
       height: 180,
       rotate: getRandomRotation(),
@@ -19,8 +19,8 @@ export default function HeroSection() {
       zIndex: 20,
     },
     {
-      src: "/images/ft2.jpg",
-      alt: "Red roses bouquet",
+      src: "/img/ft2.jpg",
+      alt: "Aproveitar eles",
       width: 150,
       height: 200,
       rotate: getRandomRotation(),
@@ -29,8 +29,8 @@ export default function HeroSection() {
       zIndex: 22,
     },
     {
-      src: "/images/ft9.jpg",
-      alt: "Heart-shaped chocolates",
+      src: "/img/ft9.jpg",
+      alt: "Faz parte do que temos de melhor",
       width: 280,
       height: 150,
       rotate: getRandomRotation(),
@@ -39,8 +39,8 @@ export default function HeroSection() {
       zIndex: 21,
     },
     {
-      src: "/images/ft3.jpg",
-      alt: "Romantic dinner setting",
+      src: "/img/ft3.jpg",
+      alt: "Cada momento",
       width: 190,
       height: 190,
       rotate: getRandomRotation(),
@@ -49,8 +49,8 @@ export default function HeroSection() {
       zIndex: 23,
     },
     {
-      src: "/images/ft8.jpg",
-      alt: "Love letter",
+      src: "/img/ft8.jpg",
+      alt: "E uma oportunidade",
       width: 220,
       height: 160,
       rotate: getRandomRotation(),
@@ -59,8 +59,8 @@ export default function HeroSection() {
       zIndex: 20,
     },
     {
-      src: "/images/ft6.jpg",
-      alt: "Couple silhouette at sunset",
+      src: "/img/ft6.jpg",
+      alt: "De amar e aprender",
       width: 180,
       height: 210,
       rotate: getRandomRotation(),
@@ -69,8 +69,8 @@ export default function HeroSection() {
       zIndex: 24,
     },
     {
-      src: "/images/ft4.jpg",
-      alt: "Gift box",
+      src: "/img/ft4.jpg",
+      alt: "A ser amado",
       width: 200,
       height: 170,
       rotate: getRandomRotation(),
@@ -79,8 +79,8 @@ export default function HeroSection() {
       zIndex: 21,
     },
     {
-      src: "/images/ft10.jpg",
-      alt: "Champagne glasses",
+      src: "/img/ft10.jpg",
+      alt: "Obrigado por ser especial",
       width: 160,
       height: 200,
       rotate: getRandomRotation(),

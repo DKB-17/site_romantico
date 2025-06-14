@@ -44,7 +44,7 @@ export default function MusicPlayer() {
         {/* Adjusted spacing */}
         <div className="flex-shrink-0">
           <Image
-            src="/images/capa_musica.jpg" // Placeholder for album art
+            src="/img/capa_musica.jpg" // Placeholder for album art
             alt="Album Art"
             width={64}
             height={64}
