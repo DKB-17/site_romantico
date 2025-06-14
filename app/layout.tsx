@@ -2,9 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Para Isadora Consoni - ❤️',
+  description: 'Criado por Diego Brito',
 }
 
 export default function RootLayout({
@@ -13,7 +12,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
+      <head>
+        <link rel="icon" href="/icone.svg" sizes="any" />
+      </head>
       <body>{children}</body>
     </html>
   )

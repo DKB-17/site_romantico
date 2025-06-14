@@ -44,7 +44,7 @@ export default function MusicPlayer() {
         {/* Adjusted spacing */}
         <div className="flex-shrink-0">
           <Image
-            src="/placeholder.svg?height=64&width=64" // Placeholder for album art
+            src="/images/capa_musica.jpg" // Placeholder for album art
             alt="Album Art"
             width={64}
             height={64}
@@ -52,8 +52,8 @@ export default function MusicPlayer() {
           />
         </div>
         <div className="text-left flex-grow">
-          <h4 className="text-xl font-bold">Our Song</h4>
-          <p className="text-gray-400 text-sm">Romantic Melody</p>
+          <h4 className="text-xl font-bold">Those Eyes</h4>
+          <p className="text-gray-400 text-sm">New West</p>
         </div>
         <div className="flex-shrink-0">
           <Button
@@ -66,7 +66,7 @@ export default function MusicPlayer() {
             {isPlaying ? <Pause size={28} /> : <Play size={28} />}
           </Button>
         </div>
-        <audio ref={audioRef} src="/placeholder.mp3" loop />
+        <audio ref={audioRef} src="/audio/those-eyes.mp3" loop />
       </CardContent>
     </Card>
   )

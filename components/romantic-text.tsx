@@ -1,20 +1,22 @@
 export default function RomanticText() {
   return (
     <section className="w-full max-w-4xl mx-auto py-12 px-4 md:px-6 text-center">
-      <h2 className="text-4xl font-bold text-pink-600 mb-6">My Dearest Love,</h2>
+      <h2 className="text-4xl font-bold text-pink-600 mb-6">Para minha querida Isadora,</h2>
       <p className="text-lg text-gray-700 leading-relaxed mb-4">
-        Every moment spent with you is a treasure, a melody that plays softly in my heart. You are the sunshine that
-        brightens my days and the moonbeam that guides my nights. With you, every ordinary day transforms into an
-        extraordinary adventure.
+        Cada momento passado com você é um tesouro, uma melodia que toca suavemente em meu coração. Você é o sol que
+        ilumina meus dias e o raio de luar que guia minhas noites. Com você, cada dia comum se transforma em uma
+        aventura.
       </p>
-      <p className="text-lg text-gray-700 leading-relaxed mb-4">
-        Your laughter is my favorite sound, your smile my most cherished sight. Thank you for filling my life with so
-        much joy, warmth, and endless love. You are my greatest dream come true.
+      <p className="text-lg text-gray-700 leading-relaxed mb-4"> 
+        Sua risada é meu som favorito, seu sorriso, minha visão mais querida. Obrigada por preencher minha vida com tanta
+        alegria, carinho e amor. Você é meu maior sonho realizado.
       </p>
       <p className="text-lg text-gray-700 leading-relaxed font-semibold text-pink-700">
-        Forever and Always,
+        Para sempre e depois,
         <br />
-        Your Beloved
+        Seu Amado
+        <br />
+        Garoto de Programa
       </p>
     </section>
   )

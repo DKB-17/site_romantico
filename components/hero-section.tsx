@@ -9,7 +9,7 @@ export default function HeroSection() {
 
   const cardsData = [
     {
-      src: "/placeholder.svg?height=180&width=250",
+      src: "/images/ft1.jpg",
       alt: "Couple holding hands",
       width: 250,
       height: 180,
@@ -19,7 +19,7 @@ export default function HeroSection() {
       zIndex: 20,
     },
     {
-      src: "/placeholder.svg?height=200&width=150",
+      src: "/images/ft2.jpg",
       alt: "Red roses bouquet",
       width: 150,
       height: 200,
@@ -29,7 +29,7 @@ export default function HeroSection() {
       zIndex: 22,
     },
     {
-      src: "/placeholder.svg?height=150&width=280",
+      src: "/images/ft9.jpg",
       alt: "Heart-shaped chocolates",
       width: 280,
       height: 150,
@@ -39,7 +39,7 @@ export default function HeroSection() {
       zIndex: 21,
     },
     {
-      src: "/placeholder.svg?height=190&width=190",
+      src: "/images/ft3.jpg",
       alt: "Romantic dinner setting",
       width: 190,
       height: 190,
@@ -49,7 +49,7 @@ export default function HeroSection() {
       zIndex: 23,
     },
     {
-      src: "/placeholder.svg?height=160&width=220",
+      src: "/images/ft8.jpg",
       alt: "Love letter",
       width: 220,
       height: 160,
@@ -59,7 +59,7 @@ export default function HeroSection() {
       zIndex: 20,
     },
     {
-      src: "/placeholder.svg?height=210&width=180",
+      src: "/images/ft6.jpg",
       alt: "Couple silhouette at sunset",
       width: 180,
       height: 210,
@@ -69,7 +69,7 @@ export default function HeroSection() {
       zIndex: 24,
     },
     {
-      src: "/placeholder.svg?height=170&width=200",
+      src: "/images/ft4.jpg",
       alt: "Gift box",
       width: 200,
       height: 170,
@@ -79,7 +79,7 @@ export default function HeroSection() {
       zIndex: 21,
     },
     {
-      src: "/placeholder.svg?height=200&width=160",
+      src: "/images/ft10.jpg",
       alt: "Champagne glasses",
       width: 160,
       height: 200,
@@ -102,12 +102,12 @@ export default function HeroSection() {
       {/* Title and subtitle - higher z-index to be on top of cards */}
       <div className="relative z-30 text-center mb-12">
         <motion.h1
-          className="text-6xl md:text-7xl lg:text-8xl font-extrabold text-rose-700 drop-shadow-lg"
+          className="text-2xl md:text-7xl lg:text-6xl font-extrabold text-rose-700 drop-shadow-lg"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          Happy Valentine's Day!
+          Para minha Bruxinha
         </motion.h1>
         <motion.p
           className="mt-4 text-xl md:text-2xl text-rose-800 font-semibold"
@@ -115,7 +115,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 1, ease: "easeOut" }}
         >
-          Celebrating Love, Joy, and Togetherness
+          Te escolho como a varinha escolhe o bruxo.
         </motion.p>
       </div>
 

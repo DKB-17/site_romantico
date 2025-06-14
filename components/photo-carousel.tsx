@@ -7,10 +7,13 @@ import { useState, useEffect } from "react" // Import useEffect
 
 export default function PhotoCarousel() {
   const images = [
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder.svg?height=400&width=600",
+    "/images/ft5.jpg",
+    "/images/ft7.jpg",
+    "/images/ft11.jpg",
+    "/images/ft12.png",
+    "/images/ft13.jpg",
+    "/images/ft14.png",
+    "/images/ft15.jpg",
   ]
   const [currentIndex, setCurrentIndex] = useState(0)
 
@@ -39,7 +42,7 @@ export default function PhotoCarousel() {
     <div className="relative w-full max-w-3xl mx-auto my-8">
       <div className="overflow-hidden rounded-xl shadow-lg">
         <Image
-          src={images[currentIndex] || "/placeholder.svg"}
+          src={images[currentIndex] || ""}
           alt={`Romantic moment ${currentIndex + 1}`}
           width={800}
           height={500}
